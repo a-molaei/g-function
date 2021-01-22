@@ -1,0 +1,8 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - https://us-central1-playground-s-11-d6e94b6e.cloudfunctions.net/hello
+  - --source=.
+  - --trigger-http
