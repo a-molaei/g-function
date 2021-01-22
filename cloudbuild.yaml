@@ -3,6 +3,6 @@ steps:
   args:
   - functions
   - deploy
-  - hello
+  - function-1
   - --source=.
   - --trigger-http
