@@ -3,6 +3,6 @@ steps:
   args:
   - functions
   - deploy
-  - https://us-central1-playground-s-11-d6e94b6e.cloudfunctions.net/hello
+  - hello
   - --source=.
   - --trigger-http
